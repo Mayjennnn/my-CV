@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+}
+
+nav {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 10;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  display: block;
+}
+
+button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.menu-button {
+  font-size: 16px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+
+.hero {
+  height: 100vh;
+  background: url('C:\Users\raren\OneDrive\Pictures\hutan.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.learn-more {
+  margin-top: 10px;
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.about, .contact {
+  padding: 50px 20px;
+  background: #222;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+p {
+  margin: 10px 0;
+}
